@@ -1,0 +1,79 @@
+#all#!/usr/bin/python2
+#coding=utf-8
+import time,os
+os.system('clear')
+
+#####logo#####
+logo = '''
+\033[1;92m                        
+
+              $$$$$$\  $$\ $$\ 
+             $$  __$$\ $$ |$$ |
+             $$ /  $$ |$$ |$$ |
+             $D$E$A$D |M$A|N$ |
+             $$  __$$ |$$ |$$ |
+             $$ |  $$ |$$ |$$ |
+             $$ |  $$ |$$ |$$ |
+             \__|  \__|\__|\__|
+                  
+                  
+                  
+
+\033[1;93m Dead-Man \033[1;96mD-M
+\033[1;97m--------------------Dead-Man-------------------
+\033[1;96m \033[1m
+ AUTHOR     : Dead-Man
+ FACEBOOK   : FACEBOOK.COM/DeadManGrayHat
+ GITHUB     : GITHUB.COM/Deadman247
+\033[1;93m--------------------Dead-Man-------------------
+\033[1;94m
+                                '''
+print(logo)
+CorrectUsername = "dead"
+CorrectPassword = "man"
+loop = 'true'
+while (loop == 'true'):
+    username = raw_input('\nUSERNAME: ')
+    if (username == CorrectUsername):
+        password = raw_input('\nPASSWORD: ')
+        if (password == CorrectPassword):
+            print("\nAPPROVED!")
+            time.sleep(2)
+            loop = 'false'
+        else:
+            print("wrong password")
+            os.system('xdg-open https://www.facebook.com/DeadManGrayHat')
+    else:
+        print("wrong username")
+        os.system('xdg-open https://www.facebook.com/DeadManGrayHat')
+os.system('clear')
+choser = '''
+\033[1;95m  Select Your Option: \n
+\033[1;92m  [1] 7-Digit
+\033[1;93m  [2] 8-Digit
+\033[1;96m  [3] 9-Digit
+\033[1;95m  [4] 10-Digit
+\033[1;92m  [5] 11-Digit
+'''
+def input():
+    print(logo)
+    print(choser)
+    v= raw_input("\n\033[1;96m Chose digit ==>")
+    if v=="1":
+        os.system('clear')
+        os.system('python2 A')
+    elif v=="2":
+        os.system('clear')
+        os.system('python2 B')
+    elif v=="3":
+        os.system('clear')
+        os.system('python2 C')
+    elif v=="4":
+        os.system('clear')
+        os.system('python2 D')
+    elif v=="5":
+        os.system('clear')
+        os.system('python2 E')
+
+
+input()
