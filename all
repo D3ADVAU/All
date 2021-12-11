@@ -61,19 +61,19 @@ def input():
     v= raw_input("\n\033[1;96m Chose digit ==>")
     if v=="1":
         os.system('clear')
-        os.system('python2 A')
+        os.system('python2 ./filesA')
     elif v=="2":
         os.system('clear')
-        os.system('python2 B')
+        os.system('python2 ./files/B')
     elif v=="3":
         os.system('clear')
-        os.system('python2 C')
+        os.system('python2 ./files/C')
     elif v=="4":
         os.system('clear')
-        os.system('python2 D')
+        os.system('python2 ./files/D')
     elif v=="5":
         os.system('clear')
-        os.system('python2 E')
+        os.system('python2 ./files/E')
 
 
 input()
