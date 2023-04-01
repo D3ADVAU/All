@@ -23,7 +23,7 @@ logo = '''
 \033[1;97m--------------------Dead-Man-------------------
 \033[1;96m \033[1m
  AUTHOR     : Dead-Man
- FACEBOOK   : FACEBOOK.COM/DeadManGrayHat
+ FACEBOOK   : FACEBOOK.COM/d3advau
  GITHUB     : GITHUB.COM/Deadman247
 \033[1;93m--------------------Dead-Man-------------------
 \033[1;94m
@@ -42,10 +42,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print("wrong password")
-            os.system('xdg-open https://www.facebook.com/DeadManGrayHat')
+            os.system('xdg-open https://www.fb.com/d3advau')
     else:
         print("wrong username")
-        os.system('xdg-open https://www.facebook.com/DeadManGrayHat')
+        os.system('xdg-open https://fb.com/d3advau')
 os.system('clear')
 choser = '''
 \033[1;95m  Select Your Option: \n
@@ -61,7 +61,7 @@ def input():
     v= raw_input("\n\033[1;96m Chose digit ==>")
     if v=="1":
         os.system('clear')
-        os.system('python2 ./filesA')
+        os.system('python2 ./files/A')
     elif v=="2":
         os.system('clear')
         os.system('python2 ./files/B')
